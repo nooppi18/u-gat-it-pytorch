@@ -45,6 +45,12 @@ The results of the paper came from the **Tensorflow code**
 - **adaILN** implement adaILN layer 
 - **Discriminator** implement Encoder down-sampling layers
 
+=> Generator : refer to table 4 in the paper
+
+=> Discriminator : refer to table 5 & 6 in the paper 
+
+
+
 
 ### 3. make virtual environment in conda (use anaconda)
 - conda create -n u-gat-it python=3.7
@@ -99,4 +105,3 @@ The results of the paper came from the **Tensorflow code**
 
 ## Reference
 [official u-gat-it-pytorch github](https://github.com/znxlwm/UGATIT-pytorch.git)
-- changed UGATIT.py line 112-115 (n_layers 7->6, 5->4 to match network architecture mentioned in the paper)
