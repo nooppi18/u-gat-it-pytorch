@@ -105,3 +105,6 @@ The results of the paper came from the **Tensorflow code**
 
 ## Reference
 [official u-gat-it-pytorch github](https://github.com/znxlwm/UGATIT-pytorch.git)
+
+#### Changes
+- changed line 112-115 in UGATIT.py for better understanding
