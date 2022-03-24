@@ -218,7 +218,7 @@ class Discriminator(nn.Module):
     def __init__(self, input_nc, ndf=64, n_layers=5):
         super(Discriminator, self).__init__()
 
-        '''TODO: implement Decoder up-sampling layers
+        '''TODO: implement Encoder down-sampling layers
 
         ## tip: it should work in both (local & global) discriminator 
         # 1. implement CNN for (h,w,3) K4 S2 P1
